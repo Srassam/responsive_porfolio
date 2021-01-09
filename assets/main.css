@@ -1,10 +1,15 @@
 img {
     width: 50%;
+    
 }
 
 footer {
     text-align: center;
-    color: maroon
+    color: whitesmoke;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+
 }
 
 p {
