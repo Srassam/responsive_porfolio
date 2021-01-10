@@ -19,4 +19,11 @@ p {
 #navbarDropdown {
     background-color: aqua;
 }
+ ul{
+    color: tomato;
+    margin-left: 09%;
+    font-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
  
