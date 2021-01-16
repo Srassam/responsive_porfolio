@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./assets//main.css" type="text/css">
     <title>Saad M. Rassam</title>
     <style>
-        img {
+        #pic {
             width: 20%;
             margin-left: 40%;
             margin-top: 1%;
@@ -26,11 +26,38 @@
             font-size: xx-large;
         }
 
+        p {
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: xx-large;
+            color: azure;
+            padding-left: 10%;
+        }
+
         .lang {
             width: 20%;
             height: 20%;
-            float: right;
+            margin: 10%;
+            text-align: center;
 
+        }
+
+        .gnal {
+            height: 50px;
+            width: auto;
+            padding: 3px;
+
+        }
+
+        .gnal1 {
+            height: 50px;
+            width: auto;
+            float: right;
+            padding: 3px;
+        }
+
+        .container {
+            align-content: center;
         }
     </style>
 </head>
@@ -80,10 +107,10 @@
         </div>
     </nav>
     <div class="media">
-        <img src="./assets/picircle.jpeg" class="align-self-start mr-3" alt="Profile Picture">
+        <img id="pic" src="./assets/picircle.jpeg" class="align-self-start mr-3" alt="Profile Picture">
     </div>
     <div class="row">
-        <div class="column-6">
+        <div class="col-sm-6">
             <h5 class="shimmer">About Me</h5>
             <ul class="about-me">
                 <li>Full Stack Developer, UNCC Bootcamp</li>
@@ -95,20 +122,26 @@
             </ul>
         </div>
 
-        <div class="lang">
-            <div class="container-fluid">
+        <div class="col-sm-6">
+            <div class="container">
 
-                <h5 class="Languages">Languages</h5>
+                <p class="Languages">Languages</p>
+                <div class="row">
 
-                <img src="./assets/html.png" class="rounded float-right" alt="html">
-                <img src="./assets/CSS.png" class="rounded float-right" alt="css">
-                <img src="./assets/JS.png" class="rounded float-right" alt="JS">
-                <img src="./assets/MySQL.jpg" class="rounded float-right" alt="MySQL">
-                <img src="./assets/nodejs.jpg" class="rounded float-right" alt="nodejs">
-                <img src="./assets/react.png" class="rounded float-right" alt="React">
+
+                    <div class="col-sm-6"> <img src="./assets/html.png" class="gnal1 rounded " alt="html">
+                    </div>
+                    <div class="col-sm-6"><img src="./assets/MySQL.jpg" class="gnal rounded" alt="MySQL"></div>
+                    <div class="col-sm-6"> <img src="./assets/CSS.png" class="gnal1 rounded " alt="css">
+                    </div>
+                    <div class="col-sm-6"><img src="./assets/nodejs.jpg" class="gnal rounded" alt="nodejs"></div>
+                    <div class="col-sm-6"><img src="./assets/JS.png" class="gnal1 rounded " alt="JS">
+                    </div>
+                    <div class="col-sm-6"> <img src="./assets/react.png" class="gnal rounded" alt="React"></div>
+
+                </div>
             </div>
         </div>
-
     </div>
     <footer>&copy; Copyright 2020 Saad M Rassam </footer>
 
